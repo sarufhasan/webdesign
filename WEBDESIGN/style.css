@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+.hdr{
+	background: url(img/headerbg.jpg);
+	background-size: cover;
+	background-attachment: center;
+
+}
+
+.herobg_overlay{
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.69);
+}
+
+.awhite{
+	color: white;
+}
+.hdrnav{
+	flex-grow: 0;
+}
+
+
+.navbar-dark .nav-item:hover .nav-link{
+	color: orange;
+	transition: all 0.6s;
+}
+
+
+.logo{
+	font-size: ;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: orange;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(0,0,0,0.0);
+}
+
+.logo a {
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-item a {
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.navbar{
+	padding-top: 1rem;
+}
+
+.hdrcntn h4,h1,p,a{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.text-center{
+	margin-top: 16%;
+}
+
+.hdrcntn h4{
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.hdrcntn h1{
+	font-size: 48px;
+	font-weight: 650;
+}
+
+.hdrcntn p {
+    max-width: 500px;
+    line-height: 1.8;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.75) !important;
+    margin-bottom: 1rem;
+}
+
+.cvbtn a{
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    padding: 15px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.5s;
+    color: solid whitesmoke;
+    display: inline-block;
+}
+.cvbtn:hover a{
+	background: orange;
+	color: white;
+	transition: 0.8s all ease;
+}
+
+.cvbtn{
+	margin-top: 18px;
+}
+.row h1 span{
+	color: orange;
+}
+
+
+.section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+.align-items{
+	align-items: center;
+
+}
+.text-custom{
+	color: orange;
+}
+
+.about-social li a {
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
+    line-height: 38px;
+    transition: all 0.5s;
+    text-align: center;
+}
+.social-media{
+	display: inline-block;
+	margin-right: 10px;
+
+}
+
+
+
+/*===========================
+        6.SERVICES
+=============================*/
+
+
+.services-boxes {
+	border: 2px solid #e8e8e8;
+}
+
+.service-title .fw-bold{
+color: orange;
+}
+
+
+.btn{
+	padding: 15px 32px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	color: white;
+}
+.btn-custom{
+	border: 1px solid;
+	border-radius: 10px;
+	border-width: 20%;
+	background-color: orange;
+}
+
+.services-text-center{
+	margin-top: 0px;
+	text-align: center;
+}
+.hire-text-center{
+	margin-top: 0px;
+	text-align: center;
+}
+
+
+
+
+.client-text-center{
+	margin-top: 0px;
+	text-align: center;
+}
+
+
+
+
+.form-sharuf .form-control {
+    box-shadow: none !important;
+    height: 50px;
+    margin-bottom: 14px;
+    border: 2px solid #e0e0e0;
+}
+
+.form-sharuf textarea.form-control {
+    height: auto;
+}
+
+.contact_detail-title {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.footer {
+    padding: 70px 0px;
+    background-color: #212121 !important;
+}
+
+.footer .footer-alt p {
+    font-size: 16px;
+}
+
+.footer .footer-alt ul li a {
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: rgba(241, 241, 241, 0.08);
+    width: 44px;
+    height: 44px;
+    display: block;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.copyright_content {
+    color: #ababab;
+}
+
+.footer-alt li a i {
+    color: #ababab;
+    transition: all 0.5s;
+}
